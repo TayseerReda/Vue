@@ -1,20 +1,17 @@
 <template>
-    <div class="about">
+    <div>
         <h1>{{ pagename }}</h1>
         <p>{{ pagedescreption }}</p>
     </div>
 </template>
-
 <script>
-// @ is an alias to /src
-
 export default {
     data: function () {
         return {
-            pagename: "About Us",
-            pagedescreption: "Welcom TO About Us Page",
+            pagename: "Help",
+            pagedescreption: "Welcom TO Help Page",
         };
     },
-    name: "AboutView",
+    name: "HelpView",
 };
 </script>
